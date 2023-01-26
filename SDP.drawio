@@ -1,116 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T16:47:45.239Z" agent="5.0 (X11)" etag="E3jzPqBMowJnShpJovDu" version="20.8.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T16:55:44.961Z" agent="5.0 (X11)" etag="FhlJTYjJoOQSADwoVLvE" version="20.8.12" type="github">
   <diagram name="Page-1" id="m3a3Csr1nznZBBLX4vaU">
-    <mxGraphModel dx="2261" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eW_LjBcapuaWD-UskeRv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-6" target="eW_LjBcapuaWD-UskeRv-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="150" as="sourcePoint" />
-            <mxPoint x="540" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-7" target="eW_LjBcapuaWD-UskeRv-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="160" as="sourcePoint" />
-            <mxPoint x="550" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-8" target="eW_LjBcapuaWD-UskeRv-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="170" as="sourcePoint" />
-            <mxPoint x="560" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="eW_LjBcapuaWD-UskeRv-18" value="&lt;div&gt;Software Backend&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="710" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-7" value="Behaviour Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-18">
-          <mxGeometry x="180" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="120" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eW_LjBcapuaWD-UskeRv-19" value="&lt;div&gt;Hardware Server&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="160" y="400" width="710" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-6" value="Local Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-19">
-          <mxGeometry x="150" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="240" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eW_LjBcapuaWD-UskeRv-20" value="Sotware Frontend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" width="710" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-8" value="Motion Planner" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-20">
-          <mxGeometry x="170" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eW_LjBcapuaWD-UskeRv-21" value="&lt;div&gt;Hardware Driver&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="160" y="600" width="710" height="200" as="geometry" />
+          <mxGeometry x="160" y="360" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-5" value="&lt;div&gt;Control Driver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-21">
-          <mxGeometry x="160" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140" y="320" as="sourcePoint" />
-            <mxPoint x="-90" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-130" y="330" as="sourcePoint" />
-            <mxPoint x="-80" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="340" as="sourcePoint" />
-            <mxPoint x="-70" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110" y="350" as="sourcePoint" />
-            <mxPoint x="-60" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-1" target="eW_LjBcapuaWD-UskeRv-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-100" y="360" as="sourcePoint" />
             <mxPoint x="-50" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-2" target="eW_LjBcapuaWD-UskeRv-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="370" as="sourcePoint" />
             <mxPoint x="-40" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-3" target="eW_LjBcapuaWD-UskeRv-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="380" as="sourcePoint" />
             <mxPoint x="-30" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-4" target="eW_LjBcapuaWD-UskeRv-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="390" as="sourcePoint" />
             <mxPoint x="-20" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eW_LjBcapuaWD-UskeRv-30" value="Control Command Communication" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-30" width="290" height="840" as="geometry" />
+          <mxGeometry x="183" y="-23" width="257" height="503" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-32" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="-30" width="300" height="870" as="geometry" />
+        <mxCell id="eW_LjBcapuaWD-UskeRv-8" value="Motion Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+          <mxGeometry x="68.5" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-7" value="Behaviour Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+          <mxGeometry x="68.5" y="173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-8" target="eW_LjBcapuaWD-UskeRv-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327" y="193" as="sourcePoint" />
+            <mxPoint x="377" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-6" value="Local Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+          <mxGeometry x="67" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-7" target="eW_LjBcapuaWD-UskeRv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="317" y="183" as="sourcePoint" />
+            <mxPoint x="367" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-5" value="&lt;div&gt;Control Driver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+          <mxGeometry x="67" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-6" target="eW_LjBcapuaWD-UskeRv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307" y="173" as="sourcePoint" />
+            <mxPoint x="357" y="123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-32" value="Related Components" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-23" width="260" height="503" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-4" value="User Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+          <mxGeometry x="70" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-3" value="Control Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+          <mxGeometry x="70" y="173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-2" value="&lt;div&gt;ROS2 Node&lt;br&gt;&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+          <mxGeometry x="70" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-1" value="&lt;div&gt;ROS2 Node&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;br&gt;&lt;/div&gt;&lt;div&gt;control Sensor and Actruator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+          <mxGeometry x="70" y="413" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
