@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T16:55:44.961Z" agent="5.0 (X11)" etag="FhlJTYjJoOQSADwoVLvE" version="20.8.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T16:56:39.539Z" agent="5.0 (X11)" etag="2M0zq8OsTWMqxIM_8FdE" version="20.8.12" type="github">
   <diagram name="Page-1" id="m3a3Csr1nznZBBLX4vaU">
     <mxGraphModel dx="1434" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eW_LjBcapuaWD-UskeRv-18" value="&lt;div&gt;Software Backend&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-18" value="&lt;div&gt;Software Backend&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-19" value="&lt;div&gt;Hardware Server&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-19" value="&lt;div&gt;Hardware Server&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="160" y="240" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-20" value="Sotware Frontend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-20" value="Sotware Frontend" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-21" value="&lt;div&gt;Hardware Driver&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-21" value="&lt;div&gt;Hardware Driver&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-1" target="eW_LjBcapuaWD-UskeRv-5">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-26" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-1" target="eW_LjBcapuaWD-UskeRv-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-100" y="360" as="sourcePoint" />
             <mxPoint x="-50" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-2" target="eW_LjBcapuaWD-UskeRv-6">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-27" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-2" target="eW_LjBcapuaWD-UskeRv-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="370" as="sourcePoint" />
             <mxPoint x="-40" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-3" target="eW_LjBcapuaWD-UskeRv-7">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-28" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-3" target="eW_LjBcapuaWD-UskeRv-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="380" as="sourcePoint" />
             <mxPoint x="-30" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-4" target="eW_LjBcapuaWD-UskeRv-8">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-29" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="eW_LjBcapuaWD-UskeRv-4" target="eW_LjBcapuaWD-UskeRv-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="390" as="sourcePoint" />
             <mxPoint x="-20" y="340" as="targetPoint" />
@@ -43,31 +43,31 @@
         <mxCell id="eW_LjBcapuaWD-UskeRv-30" value="Control Command Communication" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="183" y="-23" width="257" height="503" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-8" value="Motion Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-8" value="Motion Planner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
           <mxGeometry x="68.5" y="53" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-7" value="Behaviour Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-7" value="Behaviour Planner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
           <mxGeometry x="68.5" y="173" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-8" target="eW_LjBcapuaWD-UskeRv-7">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-17" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-8" target="eW_LjBcapuaWD-UskeRv-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="327" y="193" as="sourcePoint" />
             <mxPoint x="377" y="143" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-6" value="Local Planner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-6" value="Local Planner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
           <mxGeometry x="67" y="293" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-7" target="eW_LjBcapuaWD-UskeRv-6">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-16" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-7" target="eW_LjBcapuaWD-UskeRv-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="317" y="183" as="sourcePoint" />
             <mxPoint x="367" y="133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-5" value="&lt;div&gt;Control Driver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-5" value="&lt;div&gt;Control Driver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-30">
           <mxGeometry x="67" y="413" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-6" target="eW_LjBcapuaWD-UskeRv-5">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-15" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="eW_LjBcapuaWD-UskeRv-30" source="eW_LjBcapuaWD-UskeRv-6" target="eW_LjBcapuaWD-UskeRv-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="307" y="173" as="sourcePoint" />
             <mxPoint x="357" y="123" as="targetPoint" />
@@ -76,16 +76,16 @@
         <mxCell id="eW_LjBcapuaWD-UskeRv-32" value="Related Components" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="-23" width="260" height="503" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-4" value="User Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-4" value="User Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
           <mxGeometry x="70" y="53" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-3" value="Control Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-3" value="Control Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
           <mxGeometry x="70" y="173" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-2" value="&lt;div&gt;ROS2 Node&lt;br&gt;&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-2" value="&lt;div&gt;ROS2 Node&lt;br&gt;&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
           <mxGeometry x="70" y="293" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eW_LjBcapuaWD-UskeRv-1" value="&lt;div&gt;ROS2 Node&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;br&gt;&lt;/div&gt;&lt;div&gt;control Sensor and Actruator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
+        <mxCell id="eW_LjBcapuaWD-UskeRv-1" value="&lt;div&gt;ROS2 Node&lt;/div&gt;&lt;div&gt;on Raspberry Pi&lt;br&gt;&lt;/div&gt;&lt;div&gt;control Sensor and Actruator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="eW_LjBcapuaWD-UskeRv-32">
           <mxGeometry x="70" y="413" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
