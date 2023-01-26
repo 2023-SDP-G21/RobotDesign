@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T16:45:10.228Z" agent="5.0 (X11)" etag="No13nuGAuEyKMvjsMEdx" version="20.8.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T16:47:45.239Z" agent="5.0 (X11)" etag="E3jzPqBMowJnShpJovDu" version="20.8.12" type="github">
   <diagram name="Page-1" id="m3a3Csr1nznZBBLX4vaU">
-    <mxGraphModel dx="2261" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,12 @@
             <mxPoint x="-70" y="390" as="sourcePoint" />
             <mxPoint x="-20" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-30" value="Control Command Communication" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-30" width="290" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="eW_LjBcapuaWD-UskeRv-32" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-30" width="300" height="870" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
