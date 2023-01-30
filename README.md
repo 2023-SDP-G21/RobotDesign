@@ -11,9 +11,9 @@
 Data will be transferred from the sensors to the software in a JSON string with 2 attributes: `type` and `payload`. The type will determine where the data is coming from.
 
 Data that will be transferred from the sensors include
-  - Battery Level
-  - Speed
-  - Acceleration
+  - Battery Level (as percentage of capacity)
+  - Speed (in appropriate units)
+  - Acceleration (in appropriate units)
 
 ### Warnings / Messages
 Messages and warnings will also be communicated to the software with this API. Example messages include
