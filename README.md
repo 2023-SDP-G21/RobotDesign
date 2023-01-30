@@ -17,7 +17,6 @@ Data that will be transferred from the sensors include
 
 ### Warnings / Messages
 Messages and warnings will also be communicated to the software with this API. Example messages include
-  - COLLISION
-  - STOP
+  - EMERGENCY_STOP
   - DISABLE_COMPONENT
   - COMPONENT_CONNECTION_LOST
