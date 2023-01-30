@@ -6,7 +6,7 @@
 2. The warning message from hardware to software should be in json.
 3. Embed LED to the hardware system, for battery level indication.
 
-## API
+## API (WIP)
 ### Data Transfer
 Data will be transferred from the sensors to the software in a JSON string with 2 attributes: `type` and `payload`. The type will determine where the data is coming from.
 
