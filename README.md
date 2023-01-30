@@ -30,7 +30,7 @@ Messages and warnings will also be communicated to the software with this API. E
   - COMPONENT_CONNECTION_LOST
 
 ```json
-"warnings" : { 
-  // TODO
+"warning" : { 
+  "type" : EMERGENCY_STOP
 }
 ```
