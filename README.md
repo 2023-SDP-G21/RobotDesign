@@ -15,8 +15,22 @@ Data that will be transferred from the sensors include
   - Speed (in appropriate units)
   - Acceleration (in appropriate units)
 
+```json
+"data" : {
+  "battery" : 100,
+  "speed": 5,
+  "acceleration": 2
+}
+```
+
 ### Warnings / Messages
 Messages and warnings will also be communicated to the software with this API. Example messages include
   - EMERGENCY_STOP
   - DISABLE_COMPONENT
   - COMPONENT_CONNECTION_LOST
+
+```json
+"warnings" : { 
+  // TODO
+}
+```
