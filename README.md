@@ -19,7 +19,7 @@ Data that will be transferred from the sensors include
 "data" : {
   "battery" : 100,
   "speed": 5,
-  "acceleration": 2
+  "timeSinceStart" : 1
 }
 ```
 
@@ -28,6 +28,7 @@ Messages and warnings will also be communicated to the software with this API. E
   - EMERGENCY_STOP
   - DISABLE_COMPONENT
   - COMPONENT_CONNECTION_LOST
+  - COLLISION_WARNING
 
 ```json
 "warning" : { 
