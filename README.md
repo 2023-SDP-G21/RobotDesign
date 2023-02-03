@@ -39,3 +39,4 @@ Messages and warnings will also be communicated to the software with this API. E
 ```
 
 ### Software to Hardware
+Messages will be sent back to the hardware from the software. This will not be in the JSON format but instead use streams. 
