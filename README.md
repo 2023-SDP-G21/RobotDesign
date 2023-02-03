@@ -7,6 +7,8 @@
 3. Embed LED to the hardware system, for battery level indication.
 
 ## API Design
+
+### Hardware to Software
 ### Data
 Data will be transferred from the sensors to the software in a JSON string with 2 attributes: `type` and `payload`. The type will determine where the data is coming from.
 
@@ -35,3 +37,5 @@ Messages and warnings will also be communicated to the software with this API. E
   "type" : EMERGENCY_STOP
 }
 ```
+
+### Software to Hardware
