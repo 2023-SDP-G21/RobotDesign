@@ -9,7 +9,7 @@
 ## API Design
 
 ### Hardware to Software
-### Data
+#### Data
 Data will be transferred from the sensors to the software in a JSON string with 2 attributes: `type` and `payload`. The type will determine where the data is coming from.
 
 Data that will be transferred from the sensors include
@@ -25,7 +25,7 @@ Data that will be transferred from the sensors include
 }
 ```
 
-### Warnings / Messages
+#### Warnings / Messages
 Messages and warnings will also be communicated to the software with this API. Example messages include
   - EMERGENCY_STOP
   - DISABLE_COMPONENT
@@ -39,4 +39,4 @@ Messages and warnings will also be communicated to the software with this API. E
 ```
 
 ### Software to Hardware
-Messages will be sent back to the hardware from the software. This will not be in the JSON format but instead use streams. 
+Messages will be sent back to the hardware from the software. This will not be in the JSON format but instead use streams. This will be communicated via a TCP Connection.
