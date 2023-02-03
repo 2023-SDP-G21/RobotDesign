@@ -15,7 +15,7 @@ Data will be transferred from the sensors to the software in a JSON string with 
 Data that will be transferred from the sensors include
   - Battery Level (as percentage of capacity)
   - Speed (in appropriate units)
-  - Acceleration (in appropriate units)
+  - Time (stored in milliseconds and used in computing acceleration)
 
 ```json
 "data" : {
