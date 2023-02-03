@@ -40,3 +40,6 @@ Messages and warnings will also be communicated to the software with this API. E
 
 ### Software to Hardware
 Messages will be sent back to the hardware from the software. This will not be in the JSON format but instead use streams. This will be communicated via a TCP Connection.
+
+![image](https://user-images.githubusercontent.com/48395813/216644498-7c1d0679-5abc-42df-a129-bc957ae54e12.png)
+
