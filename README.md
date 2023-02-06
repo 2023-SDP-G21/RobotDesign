@@ -60,12 +60,11 @@ Messages will be sent back to the hardware from the software. This will not be i
   - battery_level_node
 - hardware_server
   - scripts
-    - imu_driver
-    - motor_driver
-    - ultrasonic_driver
-    - battery_level_driver
+    - imu_driver: return imu reading
+    - motor_driver: init with motor id, take motor speed, return number 1 if success else 0
+    - ultrasonic_driver: return ultrasonic sensor reading
+    - battery_level_driver: return battery level
   - reviever_node
   - sender_node
   - socket_node
-  - 
 - message
