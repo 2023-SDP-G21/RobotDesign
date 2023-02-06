@@ -46,3 +46,26 @@ Messages will be sent back to the hardware from the software. This will not be i
 
 ![image](https://user-images.githubusercontent.com/48395813/216644498-7c1d0679-5abc-42df-a129-bc957ae54e12.png)
 
+## Hardware Design
+
+- central_point
+  - local_planner
+  - safety_guard
+- hardware_driver
+  - scripts
+  - imu_sensor_node
+  - motor_actuator_node_action_client
+  - motor_actuator_node_action_server
+  - ultarsonic_sensor_node
+  - battery_level_node
+- hardware_server
+  - scripts
+    - imu_driver
+    - motor_driver
+    - ultrasonic_driver
+    - battery_level_driver
+  - reviever_node
+  - sender_node
+  - socket_node
+  - 
+- message
