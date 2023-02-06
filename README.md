@@ -31,6 +31,9 @@ Messages and warnings will also be communicated to the software with this API. E
   - DISABLE_COMPONENT
   - COMPONENT_CONNECTION_LOST
   - COLLISION_WARNING
+  - BATTERY_LOW
+  - BATTERY_CRITICAL
+  - SPEED_WARNING
 
 ```json
 "warning" : { 
