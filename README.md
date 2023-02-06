@@ -49,10 +49,17 @@ Messages will be sent back to the hardware from the software. This will not be i
 ## Hardware Design
 
 - central_point
-  - local_planner
-  - safety_guard
+  - scripts
+    - local_planner: objectives to control seqance (number list)
+    - safety_guard: take sensor data, and return enum warning and send to sender_node
+  - local_planner_node
+  - safety_guard_node
 - hardware_driver
   - scripts
+    - imu_driver: return imu reading
+    - motor_driver: init with motor id, take motor speed, return number 1 if success else 0
+    - ultrasonic_driver: return ultrasonic sensor reading
+    - battery_level_driver: return battery level
   - imu_sensor_node
   - motor_actuator_node_action_client
   - motor_actuator_node_action_server
@@ -60,11 +67,10 @@ Messages will be sent back to the hardware from the software. This will not be i
   - battery_level_node
 - hardware_server
   - scripts
-    - imu_driver: return imu reading
-    - motor_driver: init with motor id, take motor speed, return number 1 if success else 0
-    - ultrasonic_driver: return ultrasonic sensor reading
-    - battery_level_driver: return battery level
-  - reviever_node
+    - message: take some info and parse to target message structure
+    - socket: establish TCP connection, sending and receiving byte
+    - validation: validate received info, from software
+  - receiver_node
   - sender_node
   - socket_node
 - message
