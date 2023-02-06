@@ -21,23 +21,23 @@ Data that will be transferred from the sensors include
 "data" : {
   "battery" : 100,
   "speed": 5,
-  "timeSinceStart" : 1
+  ...
 }
 ```
 
 #### Warnings / Messages
-Messages and warnings will also be communicated to the software with this API. Example messages include
-  - EMERGENCY_STOP
-  - DISABLE_COMPONENT
-  - COMPONENT_CONNECTION_LOST
-  - COLLISION_WARNING
-  - BATTERY_LOW
-  - BATTERY_CRITICAL
-  - SPEED_WARNING
+Messages and warnings will also be communicated to the software with this API. Example messages include. Messages will be interpreted as warning codes. 
+  - EMERGENCY_STOP (Warning No 1)
+  - DISABLE_COMPONENT (Warning No 2)
+  - COMPONENT_CONNECTION_LOST (Warning No 3)
+  - COLLISION_WARNING (Warning No 4)
+  - BATTERY_LOW (Warning No 5)
+  - BATTERY_CRITICAL (Warning No 6)
+  - SPEED_WARNING (Warning No 7)
 
 ```json
 "warning" : { 
-  "type" : EMERGENCY_STOP
+  "code" : 1
 }
 ```
 
