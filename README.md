@@ -13,8 +13,8 @@
 Data will be transferred from the sensors to the software in a JSON string with 2 attributes: `type` and `payload`. The type will determine where the data is coming from.
 
 Data that will be transferred from the sensors include
-  - Battery Level (as percentage of capacity)
-  - Speed (in appropriate units)
+  - Battery Level (as percentage of capacity, 0 to 100, int)
+  - Speed (in appropriate units, m/s, float)
   - Time (stored in milliseconds and used in computing acceleration)
 
 ```json
